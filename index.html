@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Creative Developer & Designer Portfolio - Crafting digital experiences with precision and artistry">
+    <title>Portfolio | Creative Developer & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%236366f1' stroke-width='2'/><text x='50' y='58' text-anchor='middle' font-family='sans-serif' font-size='30' font-weight='600' fill='%236366f1'>S</text></svg>"
+        type="image/svg+xml">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <!-- Phase 1: Name Display -->
+        <div class="loading-name" id="loadingName">
+            <span class="loading-name-text">Welcome</span>
+        </div>
+        <!-- Phase 2: Logo Display -->
+        <div class="loading-logo" id="loadingLogo">
+            <div class="logo-symbol">
+                <svg viewBox="0 0 100 100" class="logo-svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"
+                        class="logo-circle" />
+                    <text x="50" y="58" text-anchor="middle" font-family="Outfit" font-size="24" font-weight="600"
+                        fill="currentColor">S</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Wrapper -->
+    <div class="main-content" id="mainContent">
+        <!-- Navigation -->
+        <header class="header" id="header">
+            <nav class="nav">
+                <a href="#mainContent" class="logo" aria-label="Home">
+                    <svg viewBox="0 0 100 100" class="nav-logo-svg">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"
+                            class="nav-logo-circle" />
+                        <text x="50" y="62" text-anchor="middle" font-family="Outfit" font-size="32" font-weight="600"
+                            fill="currentColor">S</text>
+                    </svg>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#work" class="nav-link">Work</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Who am I ?</span>
+                    <span class="title-line">SOICHIRO</span>
+                    <span class="title-line">of Digital Craft.</span>
+                </h1>
+                <p class="hero-subtitle">Developer & Designer</p>
+            </div>
+            <div class="scroll-indicator">
+                <span class="scroll-text">Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Transition Section -->
+        <section class="transition-section" id="transition">
+            <div class="transition-content">
+                <p class="transition-tagline">Creating digital experiences that inspire</p>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section class="work" id="work">
+            <div class="section-header">
+                <h2 class="section-title">Selected Work</h2>
+                <p class="section-count">01 — 06</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-project="1" data-title="E-Commerce Platform"
+                    data-client="Personal Project" data-year="2025"
+                    data-description="A modern e-commerce platform built with cutting-edge technologies. Features include real-time inventory management, seamless checkout experience, and responsive design across all devices."
+                    data-tech="React, Node.js, MongoDB, Stripe">
+                    <span class="project-number">01</span>
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="https://raw.githubusercontent.com/kaiharaso/WAI/refs/heads/main/%E3%83%98%E3%82%9A%E3%83%AA%E3%82%AB%E3%83%B3%E3%81%AE%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B9%E3%82%99%E3%82%A2%E3%83%83%E3%83%95%E3%82%9A.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-client">Personal Project</p>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-project="2" data-title="Brand Identity System"
+                    data-client="Design Studio" data-year="2025"
+                    data-description="Complete brand identity redesign for a creative design studio. Developed comprehensive visual language including logo, typography, color palette, and brand guidelines."
+                    data-tech="Figma, Adobe CC, Motion Graphics">
+                    <span class="project-number">02</span>
+                    <div class="project-image">
+                        <div class="project-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Brand Identity System</h3>
+                        <p class="project-client">Design Studio</p>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-project="3" data-title="Mobile Application"
+                    data-client="Tech Startup" data-year="2024"
+                    data-description="Cross-platform mobile application with focus on user experience and performance. Implemented smooth animations, offline support, and real-time synchronization."
+                    data-tech="React Native, TypeScript, Firebase">
+                    <span class="project-number">03</span>
+                    <div class="project-image">
+                        <div class="project-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Mobile Application</h3>
+                        <p class="project-client">Tech Startup</p>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card" data-project="4" data-title="Interactive Dashboard"
+                    data-client="Enterprise Client" data-year="2024"
+                    data-description="Data visualization dashboard with real-time analytics and customizable widgets. Features interactive charts, export functionality, and role-based access control."
+                    data-tech="Vue.js, D3.js, Python, PostgreSQL">
+                    <span class="project-number">04</span>
+                    <div class="project-image">
+                        <div class="project-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Interactive Dashboard</h3>
+                        <p class="project-client">Enterprise Client</p>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card" data-project="5" data-title="Corporate Website"
+                    data-client="Consulting Firm" data-year="2024"
+                    data-description="Modern corporate website with emphasis on performance and accessibility. Implemented multilingual support, CMS integration, and advanced SEO optimization."
+                    data-tech="Next.js, Sanity CMS, Vercel">
+                    <span class="project-number">05</span>
+                    <div class="project-image">
+                        <div class="project-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Corporate Website</h3>
+                        <p class="project-client">Consulting Firm</p>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card" data-project="6" data-title="Creative Campaign"
+                    data-client="Marketing Agency" data-year="2023"
+                    data-description="Interactive digital campaign with immersive 3D experiences and gamification elements. Achieved significant engagement metrics and brand awareness goals."
+                    data-tech="Three.js, GSAP, WebGL">
+                    <span class="project-number">06</span>
+                    <div class="project-image">
+                        <div class="project-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Creative Campaign</h3>
+                        <p class="project-client">Marketing Agency</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div class="modal" id="projectModal">
+            <div class="modal-backdrop" id="modalBackdrop"></div>
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose" aria-label="Close modal">
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="modal-header">
+                    <span class="modal-number" id="modalNumber">01</span>
+                    <span class="modal-year" id="modalYear">2025</span>
+                </div>
+                <h2 class="modal-title" id="modalTitle">Project Title</h2>
+                <p class="modal-client" id="modalClient">Client Name</p>
+                <div class="modal-image">
+                    <div class="modal-image-placeholder">
+                        <img src="https://raw.githubusercontent.com/kaiharaso/WAI/refs/heads/main/%E3%83%98%E3%82%9A%E3%83%AA%E3%82%AB%E3%83%B3%E3%81%AE%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B9%E3%82%99%E3%82%A2%E3%83%83%E3%83%95%E3%82%9A.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <p class="modal-description" id="modalDescription">Project description goes here.</p>
+                <div class="modal-tech">
+                    <span class="tech-label">Technologies</span>
+                    <p class="tech-list" id="modalTech">React, Node.js</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title">About</h2>
+                    <p class="about-description">
+                        I'm a creative developer and designer with a passion for crafting
+                        beautiful digital experiences. My work bridges the gap between
+                        aesthetics and functionality, creating solutions that not only
+                        look stunning but perform flawlessly.
+                    </p>
+                    <p class="about-description">
+                        With expertise in modern web technologies and a keen eye for design,
+                        I bring ideas to life through clean code and thoughtful user experiences.
+                    </p>
+                </div>
+                <div class="skills">
+                    <div class="skill-group">
+                        <h3 class="skill-title">Development</h3>
+                        <ul class="skill-list">
+                            <li>JavaScript / TypeScript</li>
+                            <li>React / Next.js</li>
+                            <li>Node.js</li>
+                            <li>CSS / Animation</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-title">Design</h3>
+                        <ul class="skill-list">
+                            <li>UI/UX Design</li>
+                            <li>Brand Identity</li>
+                            <li>Motion Graphics</li>
+                            <li>Figma / Adobe CC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h2 class="contact-title">Let's Work Together</h2>
+                <a href="mailto:hello@example.com" class="contact-email">hello@example.com</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="footer-name">Portfolio</p>
+                    <p class="footer-location">Tokyo, Japan</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">X (Twitter)</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+                <p class="footer-copyright">© 2026 All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
